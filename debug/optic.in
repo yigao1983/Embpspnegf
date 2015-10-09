@@ -1,0 +1,3 @@
+ 6000.0    // TempOptic
+ 0  1      // Gstat, Xstat
+ 0.10 .010 // OmegOptic, RateOptic

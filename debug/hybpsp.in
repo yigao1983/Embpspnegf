@@ -1,0 +1,20 @@
+ 0.0                 // Efrm
+ 300.0               // Temp
+-4.0    4.0    4001  // Emin  Emax  Nmesh
+ 2                   // Nenv
+ -0.000
+  0.100
+ 1    2              // Nspin Ndim
+ 2    4              // Nqus  Nblk
+ 0                   // Indqus
+ 1
+ 1    0              // Zeta Blkpsp
+-1    1
+-1    2
+ 1    3
+.010                 // Gamma (eV)
+.000
+.000
+.010
+1.00000              // Mixing
+1                    // isOptic

@@ -1,0 +1,361 @@
+sys:            
+sys:             start time: Thu Oct  8 12:52:09 2015
+sys:            
+sys:             running in parallel version
+sys:            
+sys:             Size: 8
+sys:            
+variables:      
+variables:       Efrm (Ha)    =     0.00000e+00
+variables:       Temp (Ha)    =     3.16681e-04
+variables:       Beta         =     3.15775e+03
+variables:       Emin (Ha)    =    -1.46999e-01
+variables:       Emax (Ha)    =     1.46999e-01
+variables:       Nmesh        =  4001
+variables:       Emin_aug (Ha)=    -2.93999e-01
+variables:       Emax_aug (Ha)=     2.93999e-01
+variables:       Nmesh_aug    =  8001
+variables:       Nenv         =     2
+variables:       Muenv (Ha)   =
+variables:           0    -0.00000e+00
+variables:           1     3.67498e-03
+variables:       Nspin        =     1
+variables:       Ndim         =     2
+variables:       Nqus         =     2
+variables:       Npsp         =     4
+variables:       Indqus       =
+variables:           0     0
+variables:           1     1
+variables:       Zeta, Blkpsp =
+variables:           0     1     0
+variables:           1    -1     1
+variables:           2    -1     2
+variables:           3     1     3
+variables:       Npspblk      =
+variables:           0     1
+variables:           1     1
+variables:           2     1
+variables:           3     1
+variables:       Pspblk       =
+variables:           0     0 
+variables:           1     1 
+variables:           2     2 
+variables:           3     3 
+variables:       Epsp (Ha)    =
+variables:           0     0.00000e+00
+variables:           1    -3.67498e-03
+variables:           2     3.67498e-03
+variables:           3     0.00000e+00
+variables:       Gamma (Ha)   =
+variables:           0     0     3.67498e-04
+variables:           0     1     0.00000e+00
+variables:           1     0     0.00000e+00
+variables:           1     1     3.67498e-04
+variables:       Mixing       =     1.00000e+00
+variables:      
+variables:       TempOptic (Ha) =     1.90009e-02
+variables:       BetaOptic (Ha) =     5.26292e+01
+variables:       OmegOptic (Ha) =     3.67498e-03
+variables:       RateOptic (Ha) =     3.67498e-04
+variables:       Gstat, Xstat   =     0     1
+variables:      
+perturb:        
+perturb:         UU (Ha) =
+perturb:             0     0.00000e+00
+perturb:             1     0.00000e+00
+perturb:        
+dmft:           
+dmft:            *********** DMFT Loop **********
+dmft:            ITER     0
+dmft:            SumPopqus_old =
+dmft:                0     0     9.83241e-01
+dmft:                0     1     4.99612e-01
+nca:            
+nca:             ========= SCF Retarded =========
+nca:             iblk, ngrd (R) =     0  4593
+nca:             iblk, ngrd (R) =     1  4530
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4658
+nca:             Iter     0
+nca:             iblk, ngrd (R) =     0  4617
+nca:             iblk, ngrd (R) =     1  4579
+nca:             iblk, ngrd (R) =     2  4497
+nca:             iblk, ngrd (R) =     3  4655
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.97318e-01     2.23697e-02
+nca:                 1     9.94145e-01     3.26595e-03
+nca:                 2     9.99662e-01     4.81895e-02
+nca:                 3     9.99318e-01     1.64049e-03
+nca:             --------------------------------
+nca:             Iter     1
+nca:             iblk, ngrd (R) =     0  4593
+nca:             iblk, ngrd (R) =     1  4577
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4656
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.99411e-01     2.09289e-03
+nca:                 1     9.98940e-01     4.79452e-03
+nca:                 2     1.00001e+00     3.49438e-04
+nca:                 3     9.99394e-01     7.67392e-05
+nca:             --------------------------------
+nca:             Iter     2
+nca:             iblk, ngrd (R) =     0  4592
+nca:             iblk, ngrd (R) =     1  4578
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4655
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.99407e-01     3.48460e-06
+nca:                 1     9.98946e-01     5.99318e-06
+nca:                 2     1.00001e+00     2.38509e-06
+nca:                 3     9.99395e-01     7.37381e-07
+nca:             --------------------------------
+nca:             Iter     3
+nca:             iblk, ngrd (R) =     0  4592
+nca:             iblk, ngrd (R) =     1  4578
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4655
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.99408e-01     1.29519e-07
+nca:                 1     9.98946e-01     9.47301e-09
+nca:                 2     1.00001e+00     9.83386e-09
+nca:                 3     9.99395e-01     2.28452e-10
+nca:             --------------------------------
+nca:            
+nca:             ========== SCF Lesser ==========
+nca:             iblk, ngrd (L) =     0  4555
+nca:             iblk, ngrd (L) =     1  4493
+nca:             iblk, ngrd (L) =     2  4452
+nca:             iblk, ngrd (L) =     3  4574
+nca:             Iter     0
+nca:             iblk, ngrd (L) =     0  4532
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4457
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     4.11393e-02     9.67997e-02
+nca:                 1     2.95147e-01     2.01030e-01
+nca:                 2     1.44491e-01     2.91057e-02
+nca:                 3     3.26097e-01     3.82126e-01
+nca:               tot:    8.06875e-01
+nca:             --------------------------------
+nca:             Iter     1
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.89432e-02     1.78039e-02
+nca:                 1     3.60873e-01     6.57256e-02
+nca:                 2     1.76126e-01     3.16343e-02
+nca:                 3     4.12144e-01     8.60470e-02
+nca:               tot:    1.00809e+00
+nca:             --------------------------------
+nca:             Iter     2
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.92822e-02     3.39018e-04
+nca:                 1     3.57811e-01     3.06210e-03
+nca:                 2     1.74839e-01     1.28673e-03
+nca:                 3     4.08510e-01     3.63467e-03
+nca:               tot:    1.00044e+00
+nca:             --------------------------------
+nca:             Iter     3
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.91920e-02     9.02487e-05
+nca:                 1     3.57659e-01     1.51676e-04
+nca:                 2     1.74753e-01     8.59176e-05
+nca:                 3     4.08336e-01     1.73192e-04
+nca:               tot:    9.99941e-01
+nca:             --------------------------------
+nca:             Iter     4
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.91971e-02     5.07973e-06
+nca:                 1     3.57673e-01     1.41462e-05
+nca:                 2     1.74761e-01     7.40137e-06
+nca:                 3     4.08352e-01     1.60148e-05
+nca:               tot:    9.99983e-01
+nca:             --------------------------------
+nca:             Iter     5
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.91969e-02     2.10060e-07
+nca:                 1     3.57673e-01     6.01264e-07
+nca:                 2     1.74760e-01     3.14683e-07
+nca:                 3     4.08352e-01     6.76677e-07
+nca:               tot:    9.99981e-01
+nca:             --------------------------------
+dmft:            SumPopqus_new =
+dmft:                0     0     7.65457e-01
+dmft:                0     1     5.82478e-01
+dmft:           
+dmft:            maxpopdiff =     2.17784e-01
+dmft:           
+dmft:            ********************************
+dmft:            ITER     1
+dmft:            SumPopqus_old =
+dmft:                0     0     7.65457e-01
+dmft:                0     1     5.82478e-01
+nca:            
+nca:             ========= SCF Retarded =========
+nca:             iblk, ngrd (R) =     0  4593
+nca:             iblk, ngrd (R) =     1  4530
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4658
+nca:             Iter     0
+nca:             iblk, ngrd (R) =     0  4617
+nca:             iblk, ngrd (R) =     1  4579
+nca:             iblk, ngrd (R) =     2  4497
+nca:             iblk, ngrd (R) =     3  4655
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.97318e-01     2.23697e-02
+nca:                 1     9.94145e-01     3.26595e-03
+nca:                 2     9.99662e-01     4.81895e-02
+nca:                 3     9.99318e-01     1.64049e-03
+nca:             --------------------------------
+nca:             Iter     1
+nca:             iblk, ngrd (R) =     0  4593
+nca:             iblk, ngrd (R) =     1  4577
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4656
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.99411e-01     2.09289e-03
+nca:                 1     9.98940e-01     4.79452e-03
+nca:                 2     1.00001e+00     3.49438e-04
+nca:                 3     9.99394e-01     7.67392e-05
+nca:             --------------------------------
+nca:             Iter     2
+nca:             iblk, ngrd (R) =     0  4592
+nca:             iblk, ngrd (R) =     1  4578
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4655
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.99407e-01     3.48460e-06
+nca:                 1     9.98946e-01     5.99318e-06
+nca:                 2     1.00001e+00     2.38509e-06
+nca:                 3     9.99395e-01     7.37381e-07
+nca:             --------------------------------
+nca:             Iter     3
+nca:             iblk, ngrd (R) =     0  4592
+nca:             iblk, ngrd (R) =     1  4578
+nca:             iblk, ngrd (R) =     2  4499
+nca:             iblk, ngrd (R) =     3  4655
+nca:             ipsp, sumdos, dsumdos =
+nca:                 0     9.99408e-01     1.29519e-07
+nca:                 1     9.98946e-01     9.47301e-09
+nca:                 2     1.00001e+00     9.83386e-09
+nca:                 3     9.99395e-01     2.28452e-10
+nca:             --------------------------------
+nca:            
+nca:             ========== SCF Lesser ==========
+nca:             iblk, ngrd (L) =     0  4555
+nca:             iblk, ngrd (L) =     1  4493
+nca:             iblk, ngrd (L) =     2  4452
+nca:             iblk, ngrd (L) =     3  4574
+nca:             Iter     0
+nca:             iblk, ngrd (L) =     0  4532
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4457
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     4.11393e-02     9.67997e-02
+nca:                 1     2.95147e-01     2.01030e-01
+nca:                 2     1.44491e-01     2.91057e-02
+nca:                 3     3.26097e-01     3.82126e-01
+nca:               tot:    8.06875e-01
+nca:             --------------------------------
+nca:             Iter     1
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.89432e-02     1.78039e-02
+nca:                 1     3.60873e-01     6.57256e-02
+nca:                 2     1.76126e-01     3.16343e-02
+nca:                 3     4.12144e-01     8.60470e-02
+nca:               tot:    1.00809e+00
+nca:             --------------------------------
+nca:             Iter     2
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.92822e-02     3.39018e-04
+nca:                 1     3.57811e-01     3.06210e-03
+nca:                 2     1.74839e-01     1.28673e-03
+nca:                 3     4.08510e-01     3.63467e-03
+nca:               tot:    1.00044e+00
+nca:             --------------------------------
+nca:             Iter     3
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.91920e-02     9.02487e-05
+nca:                 1     3.57659e-01     1.51676e-04
+nca:                 2     1.74753e-01     8.59176e-05
+nca:                 3     4.08336e-01     1.73192e-04
+nca:               tot:    9.99941e-01
+nca:             --------------------------------
+nca:             Iter     4
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.91971e-02     5.07973e-06
+nca:                 1     3.57673e-01     1.41462e-05
+nca:                 2     1.74761e-01     7.40137e-06
+nca:                 3     4.08352e-01     1.60148e-05
+nca:               tot:    9.99983e-01
+nca:             --------------------------------
+nca:             Iter     5
+nca:             iblk, ngrd (L) =     0  4535
+nca:             iblk, ngrd (L) =     1  4491
+nca:             iblk, ngrd (L) =     2  4458
+nca:             iblk, ngrd (L) =     3  4569
+nca:             ipsp, sumpop, dsumpop =
+nca:                 0     5.91969e-02     2.10060e-07
+nca:                 1     3.57673e-01     6.01264e-07
+nca:                 2     1.74760e-01     3.14683e-07
+nca:                 3     4.08352e-01     6.76677e-07
+nca:               tot:    9.99981e-01
+nca:             --------------------------------
+dmft:            SumPopqus_new =
+dmft:                0     0     7.65457e-01
+dmft:                0     1     5.82478e-01
+dmft:           
+dmft:            maxpopdiff =     2.22045e-16
+dmft:           
+dmft:            ********************************
+dmft:           
+dmft:            ienv, Itot =
+dmft:                0     6.45447e-05    -8.34376e-22
+dmft:                1    -6.45874e-05    -1.80065e-21
+dmft:           
+dmft:            SumDosqus =
+dmft:                0     9.99228e-01
+dmft:                0     9.99098e-01
+dmft:           
+dmft:            SumPopqus =
+dmft:                0     7.65457e-01
+dmft:                0     5.82478e-01
+sys:            
+sys:             end time: Thu Oct  8 12:55:04 2015
+sys:            
